@@ -12,7 +12,7 @@ touch functions/add.go
 
 The file structure should look like this:
 ```ts
-tutorial/ 
+localimport/ 
 ├── functions/ 
 │ └── add.go
 ├── go.mod  
