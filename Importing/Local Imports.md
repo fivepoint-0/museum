@@ -36,7 +36,7 @@ package main
 
 import (
     "fmt"
-    funcs "github.com/fivepoint-0/tutorial/functions"
+    funcs "github.com/user/localimport/functions"
 )
 
 func main() {
@@ -47,4 +47,4 @@ func main() {
 
 As you can see, the local import is doing a couple things:
 1. We are using a namespace, `funcs`, for the import. This helps segment out functions to a certain library/module.
-2. The import statement `"github.com/fivepoint-0/tutorial/functions"` looks at the original `localimport/go.mod` file, recognizes the root package name, `github.com/fivepoint-0/tutorial`, and if there is a directory in `localimport` called `functions`, then `"github.com/fivepoint-0/tutorial/functions"` would result in `main.go` looking in the subdirectory `functions`. 
+2. The import statement `"github.com/user/localimport/functions"` looks at the original `localimport/go.mod` file, recognizes the root package name, `github.com/user/localimport`, and if there is a directory in `localimport` called `functions`, then `"github.com/user/localimport/functions"` would result in `main.go` looking in the subdirectory `functions`. 
