@@ -8,3 +8,4 @@ Are there some situations where WaitGroups are required???
 
 WaitGroups aren't necessarily required, but they have a readability benefit
 
+Test change for feature
