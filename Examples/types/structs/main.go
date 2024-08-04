@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+/*
+This type is meant to represent a Person in the world of Earth.
+*/
 type Person struct {
 	Name string
 	Age  int
