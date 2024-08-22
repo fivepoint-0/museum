@@ -15,3 +15,5 @@ moretypes/
 welcome/
 ```
 
+Each of the subsection folders within the main section folders each have their corresponding `<subsection_name>.md`
+
