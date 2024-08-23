@@ -12,3 +12,5 @@ go install golang.org/x/website/tour@latest
 This will place a `tour` binary in your [GOPATH](/cmd/go/#hdr-GOPATH_and_Modules)'s `bin` directory. When you run the tour program, it will open a web browser displaying your local version of the tour.
 
 Of course, you can continue to take the tour through this web site.
+
+NOTHING_NEEDED

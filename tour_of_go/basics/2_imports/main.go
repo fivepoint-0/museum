@@ -1,9 +1,11 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
+	"math/rand"
 )
 
 func main() {
-  fmt.Println("Hello, playground")
+	random := rand.Float32()
+	fmt.Println("The random float32 is %s", random)
 }

@@ -14,3 +14,5 @@ There are limitations to the programs that can be run in the playground:
 The playground uses the latest stable release of Go.
 
 Read "[Inside the Go Playground](/blog/playground)" to learn more.
+
+NOTHING_NEEDED

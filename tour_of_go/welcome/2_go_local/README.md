@@ -16,3 +16,5 @@ The tour is available in other languages:
 *   [Ukrainian — Українською](https://go-tour-ua-translation.lm.r.appspot.com/)
 
 Click the ["next"](javascript:highlightAndClick\(".next-page"\)) button or type `PageDown` to continue.
+
+NOTHING_NEEDED
