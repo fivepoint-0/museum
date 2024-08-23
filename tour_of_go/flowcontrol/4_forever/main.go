@@ -1,9 +1,13 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 func main() {
-  fmt.Println("Hello, playground")
+	// a blank condition statement just means the for-loop
+	// will run forever until broken (with a 'break')
+	for {
+		fmt.Println("I will run... FOREVER!")
+	}
 }

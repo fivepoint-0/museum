@@ -1,9 +1,15 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
+	"math"
 )
 
 func main() {
-  fmt.Println("Hello, playground")
+	if h := math.Pow(1.414, 2); h < 2 {
+		h = h * 2
+		fmt.Printf("The value of h = '%v'\n", h)
+	} else {
+		fmt.Println("'h'**2 is less than 2!")
+	}
 }
