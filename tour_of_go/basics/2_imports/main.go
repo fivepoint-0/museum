@@ -1,11 +1,12 @@
 package main
 
+// Golang server wont let me save individual imports lol. I get the idea though.
 import (
 	"fmt"
-	"math/rand"
+	"math"
 )
 
 func main() {
-	random := rand.Float32()
-	fmt.Println("The random float32 is %s", random)
+	sqrt4 := math.Sqrt(4)
+	fmt.Printf("The square root of '4' is %f", sqrt4)
 }

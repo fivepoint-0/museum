@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// using math/rand means you can call rand.*
 	randomFloat32 := rand.Float32()
 	fmt.Println("The random float32 is", randomFloat32)
 

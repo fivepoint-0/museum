@@ -1,9 +1,15 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
+)
+
+var (
+	GLOBAL_A string
+	GLOBAL_B string = "initialized"
 )
 
 func main() {
-  fmt.Println("Hello, playground")
+	fmt.Printf("GLOBAL_A = '%s'\n", GLOBAL_A)
+	fmt.Printf("GLOBAL_B = '%s'\n", GLOBAL_B)
 }
