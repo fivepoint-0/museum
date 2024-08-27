@@ -1,9 +1,13 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 func main() {
-  fmt.Println("Hello, playground")
+	slice := []int{}
+
+	slice = append(slice, 4)
+
+	fmt.Printf("Slice: %v\n", slice)
 }

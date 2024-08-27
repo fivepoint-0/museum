@@ -1,9 +1,15 @@
 package main
 
-import (
-  "fmt"
-)
+import "fmt"
+
+type User struct {
+	Age  uint8
+	Name string
+}
 
 func main() {
-  fmt.Println("Hello, playground")
+	var user User = User{Age: 1, Name: "Baby"}
+
+	fmt.Printf("User age: %v\n", user.Age)
+	fmt.Printf("User name: %s\n", user.Name)
 }

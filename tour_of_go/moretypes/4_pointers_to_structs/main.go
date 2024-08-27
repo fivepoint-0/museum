@@ -1,9 +1,16 @@
 package main
 
-import (
-  "fmt"
-)
+import "fmt"
+
+type User struct {
+	Age  uint8
+	Name string
+}
 
 func main() {
-  fmt.Println("Hello, playground")
+	user := User{Age: 1, Name: "John"}
+	pointer := &user
+	pointer.Age = 33 // we can set the values through the pointer like `pointer.Age`, without having to dereference like `(*pointer).Age`
+	fmt.Println(pointer)
+	fmt.Println(user)
 }

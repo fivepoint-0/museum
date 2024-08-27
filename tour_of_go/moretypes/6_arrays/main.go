@@ -1,9 +1,12 @@
 package main
 
-import (
-  "fmt"
-)
+import "fmt"
 
 func main() {
-  fmt.Println("Hello, playground")
+	var nameArr [10]string
+
+	nameArr[0] = "Luke"
+	nameArr[3] = "Mike"
+
+	fmt.Println(nameArr)
 }
